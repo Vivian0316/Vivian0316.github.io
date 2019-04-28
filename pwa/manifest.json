@@ -3,9 +3,9 @@
   "short_name": "叁年",
   "description": "Vivian's Blog",
   "icons": [{
-    "src": "icons/favicon.ico",
+    "src": "icons/favicon.png",
     "sizes": "256x256",
-    "type": "image/ico"
+    "type": "image/png"
   }],
   "background_color": "#fff",
   "theme_color": "#000",
