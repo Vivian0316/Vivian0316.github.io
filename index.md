@@ -5,7 +5,7 @@ layout: home
 <div class="index-content blog">
     <div class="section">
         <ul class="artical-cate">
-            <li class="on"><a href="/"><span>Blog</span></a></li>
+            <li class="on"><a href="/"><span>越来越温柔的三年</span></a></li>
             <!-- <li style="text-align:right"><a href="/project"><span>Project</span></a></li> -->
         </ul>
 
