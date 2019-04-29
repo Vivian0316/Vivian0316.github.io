@@ -2,11 +2,10 @@
 title: 越来越温柔的三年
 SEOTitle: 越来越温柔的三年 | Vivian's Blog
 header-img: img/home-bg.jpg
-header-mask: 0.4
-email: huxpro@gmail.com
+email: 390823257@qq.com
 description: 
 keyword: 
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                         
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -38,7 +37,9 @@ anchorjs: true                          # if you want to customize anchor. check
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate
+  - jekyll-pwa-plugin   
 
 
 
@@ -56,25 +57,8 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-
-
-# Disqus settings
-# disqus_username: hux
-
 # Netease settings
 netease_comment: false
-
-
-
-# Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
-
-# Google Analytics
-# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-# ga_domain: huangxuan.me
-
-
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -99,41 +83,15 @@ service-worker: true
 page-mathjax: false
 
 
-
-# Friends
-# friends: [
-#     {
-#     #     title: "Su",
-#     #     href: "http://su.gallery/"
-#     # },{
-#         title: "乱序",
-#         href: "http://mida.re/"
-#     },{
-#         title: "前端外刊评论",
-#         href: "http://qianduan.guru/"
-#     },{
-#         title: "天镶的博客",
-#         href: "http://lingyu.wang/"
-#     },{
-#         title: "Luke 的自留地",
-#         href: "http://hmqk1995.github.io"
-#     },{
-#         title: "Ebn's Blog",
-#         href: "http://ebnbin.com/"
-#     },{
-#         title: "SmdCn's Blog",
-#         href: "http://blog.smdcn.net"
-#     },{
-#         title: "David's Game",
-#         href: "https://www.ruoyaowu.com/"
-#     },{
-#         title: "DHong Say",
-#         href: "http://dhong.co"
-#     },{
-#         title: "尹峰以为",
-#         href: "http://ingf.github.io/"
-#     },{
-#         title: "解旻的博客",
-#         href: "http://xieminis.me/"
-#     }
-# ]
+pwa:
+  sw_src_filepath: sw.js # Optional
+  sw_dest_filename: sw.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"
