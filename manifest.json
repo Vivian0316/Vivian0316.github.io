@@ -1,0 +1,17 @@
+{
+    "name": "叁年",
+    "short_name": "叁年",
+    "description": "Vivian's blog",
+    "icons": [{
+      "src": "icons/cat256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }],
+    "background_color": "#fff",
+    "theme_color": "#000",
+    "start_url": "/",
+    "Scope": "/",
+    "splash_pages": null,
+    "display": "standalone",
+    "orientation": "portrait"
+  }
