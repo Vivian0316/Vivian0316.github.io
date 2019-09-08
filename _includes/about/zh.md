@@ -20,4 +20,4 @@
 
 七夕快乐！ -->
 <p>https://dn-shimo-attachment.qbox.me/h2wdOprLy14g3rPp/%E7%BD%AA%E6%81%B6%E7%8E%8B%E5%86%A0-_rOn_.mp3?autoplay=1</p>
-Have a nice day!
+电视剧杀手，什么电视剧都看过。超厉害！
